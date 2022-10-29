@@ -1,0 +1,72 @@
+.Footer {
+    width: calc(100% - 4rem);
+    background: rgba(2, 2, 2, 0.4);
+    padding: 1rem;
+    margin: 1rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: var(--joy-radius-sm);
+    justify-content: space-between;
+}
+
+.FooterSocial a {
+    font-size: 25px;
+    margin-right: 1rem;
+    opacity: .7;
+    transition: .2s;
+}
+
+.FooterSocial a:hover {
+    opacity: 1;
+}
+
+.FooterTextSubtitle {
+    font-size: 12px;
+    margin-left: .7rem;
+}
+
+.FooterText {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 700px) {
+    .FooterText {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .FooterTextSubtitle {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Footer {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FooterText {
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+}
+
+.InProgress {
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 0;
+    background: rgba(44, 0, 0, 0.4);
+}
+
+.InProgress .InProgressIcon {
+    font-size: 40px;
+    margin-right: .5rem;
+}

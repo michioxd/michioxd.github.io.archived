@@ -1,0 +1,67 @@
+.Header {
+    width: 100%;
+}
+
+.HeaderImage {
+    width: calc(100% - 2rem);
+    margin: 1rem;
+    border-radius: var(--joy-radius-sm);
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-window-dragging: none;
+}
+
+.HeaderNav {
+    border-radius: var(--joy-radius-sm);
+    width: calc(100% - 3rem);
+    background: rgba(2, 2, 2, 0.4);
+    padding: .5rem;
+    margin: 1rem;
+    margin-top: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderNavTitle {
+    font-family: 'Torus Notched Semi';
+    padding: .5rem;
+    padding-left: 1rem;
+}
+
+.HeaderNavLink a {
+    color: #eee;
+    text-decoration: none;
+    margin-right: .3rem;
+    opacity: .7;
+    padding: .5rem .8rem;
+    transition: .2s;
+}
+
+.HeaderNavLink a[aria-current="page"] {
+    opacity: 1;
+    border-radius: 8px;
+    background: rgba(22, 22, 22, .5);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .HeaderNavTitle {
+        display: none;
+    }
+
+    .HeaderNav {
+        padding: 1rem;
+        width: calc(100% - 4rem);
+    }
+
+    .HeaderImage {
+        height: 175px;
+        object-fit: cover;
+        object-position: right bottom;
+    }
+}
