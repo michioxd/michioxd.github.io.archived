@@ -11,7 +11,7 @@ export default function Footer() {
                 </div>
                 <div className={clsx(Style.InProgressText)}>
                     <h4>THIS WEBSITE IS UNDER DEVELOPMENT!!!</h4>
-                    <p>You can contribute at <a href="//github.com/michioxd/mash1r0-web" target="_blank">my GitHub repository</a>!</p>
+                    <p>Found bug? Contribute or open an issue at <a href="//github.com/michioxd/michioxd.github.io" target="_blank">my GitHub repository</a>!</p>
                 </div>
             </div>
             <div className={clsx(Style.Footer)}>

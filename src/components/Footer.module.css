@@ -68,5 +68,9 @@
 
 .InProgress .InProgressIcon {
     font-size: 40px;
-    margin-right: .5rem;
+    margin-right: 1rem;
+}
+
+.InProgress .InProgressText p {
+    font-size: 13px;
 }
