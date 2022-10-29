@@ -1,4 +1,3 @@
-import { useColorScheme } from "@mui/joy"
 import clsx from "clsx";
 import { useEffect, useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
@@ -17,10 +16,6 @@ export default function App() {
         if (location !== displayLocation) setTransistionStage("fadeOut");
     }, [location, displayLocation]);
 
-    const { mode, setMode } = useColorScheme();
-    useEffect(() => {
-        setMode('dark');
-    }, []);
     return (
         <>
             <Header />

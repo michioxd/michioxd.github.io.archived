@@ -5,14 +5,14 @@
 .HeaderImage {
     width: calc(100% - 2rem);
     margin: 1rem;
-    border-radius: var(--joy-radius-sm);
+    border-radius: 8px;
     user-select: none;
     -webkit-user-drag: none;
     -moz-window-dragging: none;
 }
 
 .HeaderNav {
-    border-radius: var(--joy-radius-sm);
+    border-radius: 8px;
     width: calc(100% - 3rem);
     background: rgba(2, 2, 2, 0.4);
     padding: .5rem;

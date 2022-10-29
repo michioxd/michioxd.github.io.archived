@@ -1,6 +1,6 @@
 .BlogItem {
     width: calc(50% - .5rem);
-    border-radius: var(--joy-radius-sm);
+    border-radius: 8px;
     background: rgba(15, 15, 15, 0.4);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -34,7 +34,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    border-radius: var(--joy-radius-sm);
+    border-radius: 8px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
