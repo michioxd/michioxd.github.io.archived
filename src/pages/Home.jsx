@@ -28,7 +28,7 @@ export default function Home() {
             <div>
                 <h3>programming</h3>
                 <br />
-                <p>JavaScript / PHP / Node.JS / C# / C++ / Lua (a little)</p>
+                <p>JavaScript / TypeScript / PHP / Node.JS / C# / C++ / Lua (a little)</p>
             </div>
             <div>
                 <h3>JavaScript libs/framework im using/used</h3>
